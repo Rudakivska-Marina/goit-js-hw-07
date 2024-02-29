@@ -1,0 +1,40 @@
+.widget {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.widget p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.change-color {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4e75ff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+}
+
+
+.change-color:focus,
+.change-color:hover {
+    background: #6c8cff;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

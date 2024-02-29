@@ -1,0 +1,29 @@
+@import url('./task-1.css');
+@import url('./task-2.css');
+@import url('./task-3.css');
+@import url('./task-4.css');
+@import url('./task-5.css');
+@import url('./task-6.css');
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+a:hover, a:focus {
+    color: aqua;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
