@@ -13,9 +13,10 @@ function onFormSumbit(event) {
 
     if (!email.value.trim() || !password.value.trim()) {
         return alert('All form fields must be filled in');
-
-        console.log({ email: email.value, password: password.value });
-
-        event.currentTarget.reset();
     }
+
+    console.log({ email: email.value, password: password.value });
+
+    event.currentTarget.reset();
+    
 }
